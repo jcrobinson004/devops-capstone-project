@@ -80,7 +80,7 @@ spec:
       runAfter:
         - tests
         - lint
-    
+        
     - name: deploy
       workspaces:
         - name: manifest-dir
